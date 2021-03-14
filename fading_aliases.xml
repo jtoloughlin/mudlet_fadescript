@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MudletPackage>
+<MudletPackage version="1.001">
+	<AliasPackage>
+		<AliasGroup isActive="yes" isFolder="yes">
+			<name>Fading</name>
+			<script></script>
+			<command></command>
+			<packageName></packageName>
+			<regex></regex>
+			<Alias isActive="yes" isFolder="no">
+				<name>Delete fade codes</name>
+				<script>-- syntax: resetfadecodes
+
+fadecodes = {}
+table.save(getMudletHomeDir() .. "/fadecodes.lua", {})
+cecho("Fade codes reset!\n")</script>
+				<command></command>
+				<packageName></packageName>
+				<regex>^resetfadecodes$</regex>
+			</Alias>
+			<Alias isActive="yes" isFolder="no">
+				<name>Sense fade codes</name>
+				<script>--syntax: sensefrom xxx
+
+sensingFadeRooms = sensingFadeRooms or {}
+
+if matches[2] == "tkd" or matches[2] == "gorthel" or matches[2] == "wbfade" then
+  enableTrigger("Fading Triggers")
+  sensingFadeRooms.zonename = matches[2]
+  sensingFadeRooms.counter = 0
+  send("sense")
+else
+  cecho("\nCan only sensefrom: tkd, gorthel, wbfade\n")
+end</script>
+				<command></command>
+				<packageName></packageName>
+				<regex>^sensefrom (.+)$</regex>
+			</Alias>
+			<Alias isActive="yes" isFolder="no">
+				<name>View fade codes</name>
+				<script>--syntax: viewfadecodes
+
+fadecodes = fadecodes or {}
+
+if table.is_empty(fadecodes) then
+  if io.exists(getMudletHomeDir() .. "/fadecodes.lua") then
+    table.load(getMudletHomeDir() .. "/fadecodes.lua", fadecodes)
+  end
+end
+
+if table.is_empty(fadecodes) then
+  cecho("No fadecodes known!\n")
+else
+  for k, v in pairs(fadecodes) do
+    cecho("Location: " .. k .. ", code: " .. v .. "\n")
+  end
+end</script>
+				<command></command>
+				<packageName></packageName>
+				<regex>^viewfadecodes$</regex>
+			</Alias>
+			<Alias isActive="yes" isFolder="no">
+				<name>Fade to</name>
+				<script>--syntax: fadeto xxx
+local location = matches[2]
+fadecodes = fadecodes or {}
+
+if table.is_empty(fadecodes) then
+  if io.exists(getMudletHomeDir() .. "/fadecodes.lua") then
+    table.load(getMudletHomeDir() .. "/fadecodes.lua", fadecodes)
+  end
+end
+
+if fadecodes[location] then
+  send("fade " .. fadecodes[location])
+else
+  cecho("&lt;red&gt;Unknown error! No code known for this location.\n")
+end</script>
+				<command></command>
+				<packageName></packageName>
+				<regex>^fadeto (.+)$</regex>
+			</Alias>
+		</AliasGroup>
+	</AliasPackage>
+</MudletPackage>
