@@ -229,6 +229,12 @@ if sensingFadeRooms.zonename then
       fadecodes["sh"] = code
     elseif counter == 137 then
       fadecodes["reneaiel"] = code
+    elseif counter == 140 then
+      fadecodes["crh"] = code
+    elseif counter == 143 then
+      fadecodes["ewaste"] = code
+    elseif counter == 147 then
+      fadecodes["wwaste"] = code
     elseif counter == 155 then
       fadecodes["kl"] = code
     elseif counter == 156 then
@@ -293,6 +299,8 @@ if sensingFadeRooms.zonename then
       fadecodes["tvcair"] = code
     elseif counter == 270 then
       fadecodes["passgate"] = code
+    elseif counter == 275 then
+      fadecodes["backent"] = code
     end
   -- When sensing from WB Fade...
   elseif sensingFadeRooms.zonename == "wbfade" then
@@ -338,6 +346,8 @@ if sensingFadeRooms.zonename then
       fadecodes["dagger"] = code
     elseif counter == 62 then
       fadecodes["lugfade"] = code
+    elseif counter == 63 then
+      fadecodes["smisty"] = code
     elseif counter == 66 then
       fadecodes["aringill"] = code
     elseif counter == 73 then
@@ -348,6 +358,10 @@ if sensingFadeRooms.zonename then
       fadecodes["altara"] = code
     elseif counter == 90 then
       fadecodes["dog"] = code
+    elseif counter == 93 then
+      fadecodes["mirk"] = code
+    elseif counter == 96 then
+      fadecodes["jangai"] = code
     elseif counter == 99 then
       fadecodes["wlug"] = code
     elseif counter == 100 then
@@ -368,6 +382,14 @@ if sensingFadeRooms.zonename then
       fadecodes["bandareban"] = code
     elseif counter == 132 then
       fadecodes["tearfade"] = code
+    elseif counter == 135 then
+      fadecodes["tt"] = code
+    elseif counter == 141 then
+      fadecodes["rockwall"] = code
+    elseif counter == 143 then
+      fadecodes["deadwood"] = code
+    elseif counter == 144 then
+      fadecodes["spreds"] = code
     elseif counter == 147 then
       fadecodes["scorps"] = code
     elseif counter == 148 then
@@ -392,6 +414,10 @@ if sensingFadeRooms.zonename then
       fadecodes["brfade"] = code
     elseif counter == 173 then
       fadecodes["ijvets"] = code
+    elseif counter == 175 then
+      fadecodes["katar"] = code
+    elseif counter == 177 then
+      fadecodes["katar2"] = code
     elseif counter == 181 then
       fadecodes["betrolls"] = code
     elseif counter == 183 then
@@ -400,6 +426,8 @@ if sensingFadeRooms.zonename then
       fadecodes["ebe"] = code
     elseif counter == 188 then
       fadecodes["slug"] = code
+    elseif counter == 194 then
+      fadecodes["illianfade"] = code
     elseif counter == 198 then
       fadecodes["malf"] = code
     elseif counter == 201 then
