@@ -181,8 +181,12 @@ if sensingFadeRooms.zonename then
       fadecodes["aringill"] = code
     elseif counter == 65 then
       fadecodes["kk"] = code
+    elseif counter == 68 then
+      fadecodes["wbfade2"] = code
     elseif counter == 69 then
       fadecodes["wbfade"] = code
+    elseif counter == 70 then
+      fadecodes["wbfade3"] = code
     elseif counter == 71 then
       fadecodes["hearth"] = code
     elseif counter == 74 then
@@ -350,8 +354,12 @@ if sensingFadeRooms.zonename then
       fadecodes["smisty"] = code
     elseif counter == 66 then
       fadecodes["aringill"] = code
+    elseif counter == 72 then
+      fadecodes["wbfade2"] = code
     elseif counter == 73 then
       fadecodes["wbfade"] = code
+    elseif counter == 74 then
+      fadecodes["wbfade3"] = code
     elseif counter == 75 then
       fadecodes["hearth"] = code
     elseif counter == 87 then
