@@ -131,155 +131,167 @@ if sensingFadeRooms.zonename then
     end
   -- When sensing from Gorthel...
   elseif sensingFadeRooms.zonename == "gorthel" then
-    if counter == 2 then
-      fadecodes["gap"] = code
+    if counter == 1 then
+      fadecodes["caem"] = code
+    elseif counter == 2 then
+      fadecodes["4k"] = code
     elseif counter == 6 then
-      fadecodes["braem"] = code
+      fadecodes["gap"] = code
     elseif counter == 8 then
+      fadecodes["orma"] = code
+    elseif counter == 11 then
+      fadecodes["braem"] = code
+    elseif counter == 13 then
       fadecodes["roland"] = code
-    elseif counter == 10 then
+    elseif counter == 15 then
       fadecodes["cara"] = code
-    elseif counter == 16 then
+    elseif counter == 21 then
       fadecodes["blight"] = code
-    elseif counter == 17 then
+    elseif counter == 22 then
       fadecodes["blight2"] = code
-    elseif counter == 19 then
-      fadecodes["gholam"] = code
-    elseif counter == 20 then
-      fadecodes["rc"] = code
     elseif counter == 24 then
+      fadecodes["gholam"] = code
+    elseif counter == 25 then
+      fadecodes["rc"] = code
+    elseif counter == 29 then
       fadecodes["sg"] = code
-    elseif counter == 26 then
+    elseif counter == 31 then
       fadecodes["tkd"] = code
-    elseif counter == 28 then
-      fadecodes["tkd2"] = code
-    elseif counter == 30 then
-      fadecodes["ncaem"] = code
     elseif counter == 33 then
-      fadecodes["ls"] = code
-    elseif counter == 35 then
-      fadecodes["sted"] = code
+      fadecodes["tkd2"] = code
     elseif counter == 38 then
-      fadecodes["apple"] = code
-    elseif counter == 39 then
-      fadecodes["cut"] = code
-    elseif counter == 44 then
-      fadecodes["dagger"] = code
+      fadecodes["ncaem"] = code
+    elseif counter == 41 then
+      fadecodes["ls"] = code
+    elseif counter == 43 then
+      fadecodes["sted"] = code
     elseif counter == 46 then
-      fadecodes["rk"] = code
+      fadecodes["apple"] = code
     elseif counter == 47 then
-      fadecodes["rk2"] = code
-    elseif counter == 48 then
-      fadecodes["greenhand"] = code
-    elseif counter == 51 then
-      fadecodes["kk"] = code
+      fadecodes["cut"] = code
     elseif counter == 55 then
-      fadecodes["wbfade"] = code
+      fadecodes["dagger"] = code
     elseif counter == 57 then
-      fadecodes["hearth"] = code
-    elseif counter == 60 then
-      fadecodes["sward"] = code
-    elseif counter == 63 then
-      fadecodes["jangai"] = code
-    elseif counter == 66 then
-      fadecodes["dusty"] = code
-    elseif counter == 67 then
-      fadecodes["dusty2"] = code
-    elseif counter == 68 then
-      fadecodes["dusty3"] = code
+      fadecodes["rk"] = code
+    elseif counter == 58 then
+      fadecodes["rk2"] = code
+    elseif counter == 59 then
+      fadecodes["greenhand"] = code
+    elseif counter == 62 then
+      fadecodes["aringill"] = code
+    elseif counter == 65 then
+      fadecodes["kk"] = code
     elseif counter == 69 then
-      fadecodes["granite"] = code
-    elseif counter == 73 then
-      fadecodes["dfrent"] = code
+      fadecodes["wbfade"] = code
+    elseif counter == 71 then
+      fadecodes["hearth"] = code
     elseif counter == 74 then
-      fadecodes["wdusty"] = code
-    elseif counter == 78 then
-      fadecodes["ttc"] = code
+      fadecodes["sward"] = code
+    elseif counter == 77 then
+      fadecodes["jangai"] = code
+    elseif counter == 80 then
+      fadecodes["dusty"] = code
+    elseif counter == 81 then
+      fadecodes["dusty2"] = code
+    elseif counter == 82 then
+      fadecodes["dusty3"] = code
     elseif counter == 83 then
-      fadecodes["ebgs"] = code
-    elseif counter == 86 then
-      fadecodes["maerone"] = code
+      fadecodes["granite"] = code
+    elseif counter == 87 then
+      fadecodes["dfrent"] = code
     elseif counter == 88 then
-      fadecodes["blands"] = code
-    elseif counter == 89 then
-      fadecodes["dfrent2"] = code
-    elseif counter == 95 then
-      fadecodes["orch"] = code
+      fadecodes["wdusty"] = code
+    elseif counter == 92 then
+      fadecodes["ttc"] = code
     elseif counter == 97 then
+      fadecodes["ebgs"] = code
+    elseif counter == 100 then
+      fadecodes["maerone"] = code
+    elseif counter == 102 then
+      fadecodes["blands"] = code
+    elseif counter == 103 then
+      fadecodes["dfrent2"] = code
+    elseif counter == 109 then
+      fadecodes["orch"] = code
+    elseif counter == 111 then
       fadecodes["camp"] = code
-    elseif counter == 101 then
-      fadecodes["jimmy"] = code
     elseif counter == 115 then
-      fadecodes["lf"] = code
-    elseif counter == 116 then
-      fadecodes["nlf"] = code
-    elseif counter == 117 then
-      fadecodes["sh"] = code
-    elseif counter == 120 then
-      fadecodes["reneaiel"] = code
+      fadecodes["jimmy"] = code
+    elseif counter == 128 then
+      fadecodes["scorps"] = code
     elseif counter == 129 then
-      fadecodes["kl"] = code
-    elseif counter == 130 then
-      fadecodes["kandor"] = code
+      fadecodes["crackedslab"] = code
     elseif counter == 132 then
-      fadecodes["emara"] = code
+      fadecodes["lf"] = code
     elseif counter == 133 then
-      fadecodes["mara"] = code
-    elseif counter == 136 then
-      fadecodes["sald"] = code
-    elseif counter == 139 then
-      fadecodes["ij"] = code
-    elseif counter == 143 then
-      fadecodes["dwc"] = code
-    elseif counter == 145 then
-      fadecodes["sunpalace"] = code
-    elseif counter == 150 then
-      fadecodes["df"] = code
-    elseif counter == 152 then
-      fadecodes["spiders"] = code
+      fadecodes["nlf"] = code
+    elseif counter == 134 then
+      fadecodes["sh"] = code
+    elseif counter == 137 then
+      fadecodes["reneaiel"] = code
     elseif counter == 155 then
-      fadecodes["brfade"] = code
+      fadecodes["kl"] = code
+    elseif counter == 156 then
+      fadecodes["kandor"] = code
     elseif counter == 158 then
-      fadecodes["ijvets"] = code
-    elseif counter == 166 then
-      fadecodes["vial"] = code
+      fadecodes["emara"] = code
+    elseif counter == 159 then
+      fadecodes["mara"] = code
+    elseif counter == 162 then
+      fadecodes["sald"] = code
+    elseif counter == 165 then
+      fadecodes["ij"] = code
     elseif counter == 169 then
-      fadecodes["blackstone"] = code
+      fadecodes["dwc"] = code
+    elseif counter == 171 then
+      fadecodes["sunpalace"] = code
+    elseif counter == 176 then
+      fadecodes["df"] = code
     elseif counter == 178 then
-      fadecodes["malf"] = code
+      fadecodes["spiders"] = code
     elseif counter == 181 then
-      fadecodes["manhole"] = code
-    elseif counter == 187 then
-      fadecodes["inmara"] = code
-    elseif counter == 189 then
-      fadecodes["dhs"] = code
-    elseif counter == 190 then
-      fadecodes["dhs2"] = code
-    elseif counter == 191 then
-      fadecodes["dhs3"] = code
-    elseif counter == 194 then
-      fadecodes["siffas"] = code
-    elseif counter == 197 then
-      fadecodes["rhahime"] = code
-    elseif counter == 198 then
-      fadecodes["gorthel"] = code
-    elseif counter == 200 then
-      fadecodes["4trees"] = code
-    elseif counter == 201 then
-      fadecodes["dog"] = code
+      fadecodes["brfade"] = code
+    elseif counter == 184 then
+      fadecodes["ijvets"] = code
+    elseif counter == 192 then
+      fadecodes["vial"] = code
+    elseif counter == 195 then
+      fadecodes["blackstone"] = code
     elseif counter == 204 then
-      fadecodes["smellies"] = code
+      fadecodes["malf"] = code
     elseif counter == 207 then
-      fadecodes["pravus"] = code
+      fadecodes["manhole"] = code
     elseif counter == 213 then
+      fadecodes["inmara"] = code
+    elseif counter == 215 then
+      fadecodes["dhs"] = code
+    elseif counter == 216 then
+      fadecodes["dhs2"] = code
+    elseif counter == 217 then
+      fadecodes["dhs3"] = code
+    elseif counter == 220 then
+      fadecodes["siffas"] = code
+    elseif counter == 223 then
+      fadecodes["rhahime"] = code
+    elseif counter == 224 then
+      fadecodes["gorthel"] = code
+    elseif counter == 226 then
+      fadecodes["4trees"] = code
+    elseif counter == 227 then
+      fadecodes["dog"] = code
+    elseif counter == 230 then
+      fadecodes["smellies"] = code
+    elseif counter == 233 then
+      fadecodes["pravus"] = code
+    elseif counter == 239 then
       fadecodes["kreeza"] = code
-    elseif counter == 229 then
+    elseif counter == 255 then
       fadecodes["darkfort"] = code
-    elseif counter == 237 then
+    elseif counter == 263 then
       fadecodes["whitetower"] = code
-    elseif counter == 240 then
+    elseif counter == 266 then
       fadecodes["tvcair"] = code
-    elseif counter == 244 then
+    elseif counter == 270 then
       fadecodes["passgate"] = code
     end
   -- When sensing from WB Fade...
@@ -288,6 +300,8 @@ if sensingFadeRooms.zonename then
       fadecodes["caem"] = code
     elseif counter == 2 then
       fadecodes["4k"] = code
+    elseif counter == 5 then
+      fadecodes["orma"] = code
     elseif counter == 8 then
       fadecodes["braem"] = code
     elseif counter == 10 then
@@ -312,85 +326,115 @@ if sensingFadeRooms.zonename then
       fadecodes["ebaer"] = code
     elseif counter == 42 then
       fadecodes["ncaem"] = code
-    elseif counter == 47 then
+    elseif counter == 45 then
+      fadecodes["falls"] = code
+    elseif counter == 46 then
+      fadecodes["noose"] = code
+    elseif counter == 50 then
       fadecodes["apple"] = code
-    elseif counter == 48 then
+    elseif counter == 51 then
       fadecodes["cut"] = code
-    elseif counter == 56 then
-      fadecodes["dagger"] = code
     elseif counter == 59 then
+      fadecodes["dagger"] = code
+    elseif counter == 62 then
       fadecodes["lugfade"] = code
-    elseif counter == 60 then
+    elseif counter == 66 then
       fadecodes["aringill"] = code
-    elseif counter == 67 then
+    elseif counter == 73 then
       fadecodes["wbfade"] = code
-    elseif counter == 69 then
+    elseif counter == 75 then
       fadecodes["hearth"] = code
-    elseif counter == 81 then
+    elseif counter == 87 then
       fadecodes["altara"] = code
-    elseif counter == 84 then
+    elseif counter == 90 then
+      fadecodes["dog"] = code
+    elseif counter == 99 then
       fadecodes["wlug"] = code
-    elseif counter == 85 then
+    elseif counter == 100 then
       fadecodes["granite"] = code
-    elseif counter == 88 then
-      fadecodes["bark"] = code
-    elseif counter == 95 then
-      fadecodes["maredo"] = code
-    elseif counter == 97 then
-      fadecodes["ttc"] = code
-    elseif counter == 102 then
-      fadecodes["ebgs"] = code
     elseif counter == 103 then
-      fadecodes["glancor"] = code
-    elseif counter == 106 then
-      fadecodes["maerone"] = code
-    elseif counter == 111 then
-      fadecodes["bandareban"] = code
+      fadecodes["bark"] = code
+    elseif counter == 110 then
+      fadecodes["maredo"] = code
+    elseif counter == 112 then
+      fadecodes["ttc"] = code
     elseif counter == 117 then
-      fadecodes["tearfade"] = code
-    elseif counter == 123 then
-      fadecodes["sald"] = code
+      fadecodes["ebgs"] = code
+    elseif counter == 118 then
+      fadecodes["glancor"] = code
+    elseif counter == 121 then
+      fadecodes["maerone"] = code
     elseif counter == 126 then
-      fadecodes["ij"] = code
-    elseif counter == 130 then
-      fadecodes["dwc"] = code
+      fadecodes["bandareban"] = code
     elseif counter == 132 then
-      fadecodes["sunpalace"] = code
-    elseif counter == 136 then
-      fadecodes["brfade"] = code
-    elseif counter == 139 then
-      fadecodes["ijvets"] = code
-    elseif counter == 144 then
-      fadecodes["betrolls"] = code
-    elseif counter == 146 then
-      fadecodes["ad"] = code
-    elseif counter == 150 then
-      fadecodes["ebe"] = code
+      fadecodes["tearfade"] = code
+    elseif counter == 147 then
+      fadecodes["scorps"] = code
+    elseif counter == 148 then
+      fadecodes["crackedslab"] = code
     elseif counter == 151 then
-      fadecodes["slug"] = code
-    elseif counter == 158 then
-      fadecodes["malf"] = code
-    elseif counter == 163 then
-      fadecodes["wwh"] = code
+      fadecodes["lf"] = code
+    elseif counter == 152 then
+      fadecodes["nlf"] = code
+    elseif counter == 153 then
+      fadecodes["emara"] = code
+    elseif counter == 154 then
+      fadecodes["mara"] = code
+    elseif counter == 157 then
+      fadecodes["sald"] = code
+    elseif counter == 160 then
+      fadecodes["ij"] = code
+    elseif counter == 164 then
+      fadecodes["dwc"] = code
     elseif counter == 166 then
-      fadecodes["rhahime"] = code
-    elseif counter == 167 then
-      fadecodes["gorthel"] = code
-    elseif counter == 169 then
-      fadecodes["4trees"] = code
+      fadecodes["sunpalace"] = code
     elseif counter == 170 then
-      fadecodes["pravus"] = code
-    elseif counter == 176 then
-      fadecodes["kreeza"] = code
-    elseif counter == 182 then
-      fadecodes["quarry"] = code
-    elseif counter == 184 then
-      fadecodes["whitetower"] = code
+      fadecodes["brfade"] = code
+    elseif counter == 173 then
+      fadecodes["ijvets"] = code
+    elseif counter == 181 then
+      fadecodes["betrolls"] = code
+    elseif counter == 183 then
+      fadecodes["ad"] = code
     elseif counter == 187 then
+      fadecodes["ebe"] = code
+    elseif counter == 188 then
+      fadecodes["slug"] = code
+    elseif counter == 198 then
+      fadecodes["malf"] = code
+    elseif counter == 201 then
+      fadecodes["inmara"] = code
+    elseif counter == 203 then
+      fadecodes["dhs"] = code
+    elseif counter == 204 then
+      fadecodes["dhs2"] = code
+    elseif counter == 205 then
+      fadecodes["dhs3"] = code
+    elseif counter == 208 then
+      fadecodes["siffas"] = code
+    elseif counter == 211 then
+      fadecodes["wwh"] = code
+    elseif counter == 214 then
+      fadecodes["rhahime"] = code
+    elseif counter == 215 then
+      fadecodes["gorthel"] = code
+    elseif counter == 217 then
+      fadecodes["4trees"] = code
+    elseif counter == 218 then
+      fadecodes["smellies"] = code
+    elseif counter == 221 then
+      fadecodes["pravus"] = code
+    elseif counter == 227 then
+      fadecodes["kreeza"] = code
+    elseif counter == 233 then
+      fadecodes["quarry"] = code
+    elseif counter == 235 then
+      fadecodes["whitetower"] = code
+    elseif counter == 238 then
       fadecodes["tvcair"] = code
-    elseif counter == 193 then
+    elseif counter == 244 then
       fadecodes["passgate"] = code
-    elseif counter == 197 then
+    elseif counter == 248 then
       fadecodes["garens"] = code
     end
   else
