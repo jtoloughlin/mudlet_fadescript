@@ -3,7 +3,7 @@ Mudlet Fade Script
 
 To install: Go to "Triggers" or "Aliases" and select "Import", then import these triggers and aliases.
 
-Note this is designed for use with Adael's WoTMUD Mudlet system: https://github.com/weisluke/WoTMUD
+Note that I use a modified version of Adael's WoTMUD Mudlet system, so this is designed with that in mind, but it doesn't require that system. Still, if you're on Mudlet I recommend checking it out: https://github.com/weisluke/WoTMUD
 
 To use:
 * Be a rank 3 fade (see notes on modifying for other ranks below)
