@@ -11,7 +11,7 @@ To use:
 * The triggers will turn on while sensing, and disable when done, so they don't lag mudlet
 * The script will parse all the codes that are output, and store the captured ones as fade codes (note, unlike the similar zmud script, it doesn't store ALL codes, since I find the paradox of choice overwhelming)
 * You can do VIEWFADECODES to see the list of codes and name mappings
-* You can now do FADETO <place> to fade to that code
+* You can now do FADETO <place> to fade to that code, e.g., FADETO TKD or FADETO RK
 * The codes will automatically be cleared at the month change, to prevent misfading (you will have to manually cancel any in-progress fade or else you'll end up misfading -- the script does not do that for you)
 
 To modify for ranks other than 3:
